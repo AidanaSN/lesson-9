@@ -1,0 +1,44 @@
+
+
+.container {
+    display: flex;  
+    align-items: center;
+    width: 900px;
+}
+
+p {
+    margin: 0;
+}
+
+.box {
+    flex: 1;
+    margin: 10px;
+    height: 330px;
+    font-weight: bold;
+    border: 4px solid gray;   
+    border-radius: 20px;
+    position: relative;
+}
+
+.box:hover {
+    box-shadow: 5px 5px gray;
+}
+
+
+.block {
+    padding: 10px;
+}
+
+.cake img {
+    border-radius: 16px 16px 0px 0px;
+    height: 250px;
+    width: 100%;
+}
+
+.cakeName {
+    color:deepskyblue;
+}
+
+.cakePrice:hover {
+    color: crimson;
+}

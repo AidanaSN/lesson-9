@@ -1,0 +1,35 @@
+header {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+
+nav ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li:first-child {
+    background-color:hotpink ;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav li:last-child {
+    background-color: aqua;
+    margin-right: 0;
+}
+
+nav li:nth-child(3) {
+    background-color: blueviolet;
+}
+
+nav li:hover {
+    background-color: chartreuse;
+}
